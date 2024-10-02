@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.diamond-shape {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+}
+
+/* Rectangle styles */
+.rectangle {
+    position: absolute;
+    background-color: #3498db;
+    transform-origin: center center;
+}
+
+/* Square styles */
+.square {
+    position: absolute;
+    background-color: #e74c3c;
+    width: 60px;
+    height: 60px;
+}
+
+/* Positioning and sizing of the rectangles */
+.top-rectangle {
+    width: 360px;
+    height: 60px;
+    top: -30px;
+    left: -30px;
+    background-color: rgba(18, 132, 231, 0.205);
+}
+
+.bottom-rectangle {
+    width: 360px;
+    height: 60px;
+    bottom: -30px;
+    left: -30px;
+    background-color: rgba(18, 132, 231, 0.205);
+}
+
+.left-rectangle {
+    width: 60px;
+    height: 360px;
+    bottom: -30px;
+    left: -30px;
+    background-color: rgba(18, 132, 231, 0.205);
+}
+
+.right-rectangle {
+    width: 60px;
+    height: 360px;
+    bottom: -30px;
+    right: -30px;
+    background-color: rgba(18, 132, 231, 0.205);
+}
+
+/* Positioning of the squares */
+.top-left-square {
+    top: -30px;
+    left: -30px;
+}
+
+.top-right-square {
+    top: -30px;
+    right: -30px;
+}
+
+.bottom-left-square {
+    bottom: -30px;
+    left: -30px;
+}
+
+.bottom-right-square {
+    bottom: -30px;
+    right: -30px;
+}
